@@ -11,6 +11,10 @@ Please check the [**Submitting high-throughput sequence data to GEO**](https://w
    <img width="749" alt="image" src="https://github.com/liranmao/Upload_GEO_files/assets/78578236/7483d068-9987-4e74-a922-1b89f8ea0899">
 
   Then, click Transfer Files, you will see FTP server credentials in f.
+
+  Edit run.lftp file accordingly and put it in the parent directory. 
   
-   
+  Use this comand to run the code: nohup lftp -f ../run.lftp > ../run.lftp.out &
+
+  You can check if there are err
 5. 
