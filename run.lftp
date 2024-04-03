@@ -1,4 +1,4 @@
-open -u geoftp,inAlwokhodAbnib5 ftp-private.ncbi.nlm.nih.gov
+open -u geoftp,inAlwokhodAbnib5 ftp-private.ncbi.nlm.nih.gov ## Paste your own FTP server credentials here, the format is 
 
 cd uploads/liranmmao@gmail.com_oPCJAw0O
 cache size 300000
