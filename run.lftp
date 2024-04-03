@@ -1,0 +1,7 @@
+open -u geoftp,inAlwokhodAbnib5 ftp-private.ncbi.nlm.nih.gov
+
+cd uploads/liranmmao@gmail.com_oPCJAw0O
+cache size 300000
+set cmd:parallel 10
+
+mirror -R /mnt/f/Pengfei/raw_data/Nanobody_project_raw_Data ./
