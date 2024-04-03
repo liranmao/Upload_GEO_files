@@ -1,7 +1,7 @@
-open -u geoftp,inAlwokhodAbnib5 ftp-private.ncbi.nlm.nih.gov ## Paste your own FTP server credentials here, the format is 
+open -u XXXXX,XXXXX ftp-private.ncbi.nlm.nih.gov ## Paste your own FTP server credentials here, the format is username,password host_address
 
-cd uploads/liranmmao@gmail.com_oPCJAw0O
-cache size 300000
-set cmd:parallel 10
+cd path_to_your_dir ## path to your personalized upload space 
+cache size 300000 ## Set the cache size, but don't make it too large. Taking up too much cache on the server will prevent other programs from running
+set cmd:parallel 10 ## Set the number of threads to upload in parallel. This could save upload time
 
-mirror -R /mnt/f/Pengfei/raw_data/Nanobody_project_raw_Data ./
+mirror -R /mnt/f/Pengfei/raw_data/Nanobody_project_raw_Data ./ ## transfer the submission folder from your computer to GEO server. If its all plain files and not a foler, you can also use mput *
