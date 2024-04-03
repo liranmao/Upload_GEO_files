@@ -1,5 +1,7 @@
 # Upload Files to GEO
 
+Liran Mao 04/03/2024
+
 This tutorial guides you through the process of uploading files to GEO for publication.
 
 Please refer to [**Submitting high-throughput sequence data to GEO**](https://www.ncbi.nlm.nih.gov/geo/info/seq.html) for detailed instructions. All the code is run in Linux.
