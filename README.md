@@ -21,5 +21,5 @@ Please refer to [**Submitting high-throughput sequence data to GEO**](https://ww
 
     Check the `run.lftp.out` file for any errors that may have occurred during the transfer.
 
-3. **Upload the metadata.** When setting the release date, a general guideline is to choose a date 1 or 2 years from the present. This can be adjusted later if necessary.
+3. Upload the metadata. Note that when setting the release date, a general guideline is to choose a date 1 or 2 years from the present. This can be adjusted later if necessary.
 4. Upon completing your submission, you will be directed to a confirmation page and will receive a confirmation email. Additionally, expect an email from GEO curators containing your GEO accession numbers or posing questions regarding your submission.
